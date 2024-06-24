@@ -1,0 +1,138 @@
+
+/* 2 */
+header{
+   width: 100%;
+   display: grid;
+   grid-template-columns: 100px 1fr 200px;
+   position: fixed;
+   left: 0px;
+   right: 0px;
+   top: 0px;
+   z-index: 1000;
+   /* background-color: rgb(236, 205, 205); */
+   background-color: white;
+   justify-self: center;
+}
+header img{
+   width: 60px;
+   border-radius: 100px;
+}
+header .head2{
+   justify-self: center;
+   align-self: center;
+   font-size: 20px;
+}
+.head2 a{
+   margin: 30px;
+   text-decoration: none;
+   color: black;
+}
+button[type="form"]{
+   background-color: rgb(33, 225, 133);
+   padding: 10px 70px;
+   border-radius: 5px;
+   font-size: 15px;
+   margin-top: 5px;
+}
+
+/* 1 */
+body{
+   font-size: 24px;
+   font-family: Arial, Helvetica, sans-serif;
+   /* margin-left: 50px;
+   margin-right: 50px; */
+}
+.landing_page{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   grid-gap: 20px;
+   height: 90vh;   
+   /* background-color: gray;          */
+   margin-top: 75px;
+}
+.landing1{
+   justify-self: center;
+   align-self: center;
+   padding: 0px 70px;
+   /* background-color: green; */
+}
+button[type="text"]{
+   margin-top: 20px;
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   padding: 10px 50px;
+
+}
+.landing2{
+   height: 90vh;
+   background-color: yellow;
+   padding-bottom: 0px;
+}
+.landing2 img{
+   height: 90vh;
+   width: 70%;
+}
+
+/* 3 */
+.order_details{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   margin-top: 20px;
+   text-align: center;
+   background-color: black;
+   color: white;
+   padding: 20px;
+   justify-content: center;
+   align-content: end;
+   height: auto;
+   
+}
+.od1,.od2,.od3{
+   margin: 30px;
+   align-self: end;
+   justify-self: center;
+}
+.od1 p,.od2 p,.od3 p{
+   color:rgb(96, 95, 95);
+}
+/* 4 */
+.fecelities{
+   margin-top: 40px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-gap: 20px;
+   /* border: 5px solid black; */
+}
+
+.fecelities img{
+   width: 420px;
+   height: auto;
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+}
+.fecelities .f1{
+   border: 2px solid black;
+   justify-self: left;
+   margin: 10px;
+   max-width: 420px;
+   border-radius: 25px;
+}
+.fecelities .f2{
+   border: 2px solid black;
+   justify-self: center;
+   margin: 10px;
+   max-width: 420px;
+   border-radius: 25px;
+}
+.fecelities .f3{
+   border: 2px solid black;
+   justify-self: right;
+   margin: 10px;
+   max-width: 420px;
+   border-radius: 25px;
+}
+.f1 .d1,.f2 .d2,.f3 .d3{
+   margin-left: 30px;
+   margin-right: 30px;
+}

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Food</title>
+</head>
+<body>
+    <style>
+         /* 2 */
+         header{
+            width: 100%;
+            display: grid;
+            grid-template-columns: 100px 1fr 200px;
+            position: fixed;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            z-index: 1000;
+            /* background-color: rgb(236, 205, 205); */
+            background-color: white;
+            justify-self: center;
+        }
+        header img{
+            width: 60px;
+            border-radius: 100px;
+        }
+        header .head2{
+            justify-self: center;
+            align-self: center;
+            font-size: 20px;
+        }
+        .head2 a{
+            margin: 30px;
+            text-decoration: none;
+            color: black;
+        }
+        button[type="form"]{
+            background-color: rgb(33, 225, 133);
+            padding: 10px 70px;
+            border-radius: 5px;
+            font-size: 15px;
+            margin-top: 5px;
+        }
+
+        /* 1 */
+        body{
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .landing_page{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 20px;
+            height: 90vh;   
+            /* background-color: gray;          */
+            margin-top: 75px;
+        }
+        .landing1{
+            justify-self: center;
+            align-self: center;
+            padding: 0px 70px;
+            /* background-color: green; */
+        }
+        button[type="text"]{
+            margin-top: 20px;
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            padding: 10px 50px;
+
+        }
+        .landing2{
+            height: 90vh;
+            background-color: yellow;
+            padding-bottom: 0px;
+        }
+        .landing2 img{
+            height: 90vh;
+            width: 70%;
+        }
+        
+        /* 3 */
+        .order_details{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            margin-top: 20px;
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            justify-content: center;
+            align-content: end;
+            height: auto;
+            
+        }
+        .od1,.od2,.od3{
+            margin: 30px;
+            align-self: end;
+            justify-self: center;
+        }
+        .od1 p,.od2 p,.od3 p{
+            color:rgb(96, 95, 95);
+        }
+
+    </style>
+    <!-- 2 -->
+     <header class="_header">
+                <div class="head1">
+                    <img src="header_logo.jpeg" alt="">
+                 </div>
+                 <div class="head2">
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                 </div>
+                 <div class="head3">
+                    <button type="form">Login</button>
+                 </div>
+     </header>
+    <!-- 1 -->
+    <div class="landing_page">
+        <div class="landing1">
+            <h1>Healthy Food</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, iste pariatur. Vero excepturi quas doloremque qui fuga perferendis alias eligendi temporibus iure, illum numquam nobis fugit natus unde iusto omnis maiores deleniti non maxime? Doloribus nisi cupiditate placeat, similique, numquam aliquam totam debitis officia magnam beatae amet quidem perferendis optio?</p>
+            <button type="text">Read More</button>
+        </div>
+        <div class="landing2">
+            <img src="vegitables.jpeg" alt="">
+        </div>
+    </div>
+    <!-- 3 -->
+     <div class="order_details">
+        <div class="od1">
+            <img src="NOMIN3.png" alt="no_minimum_order">
+            <h2>NO Minimum Order</h2>
+            <p>Order in for yourself or for the group,
+                with no restrictions on order value
+            </p>
+        </div>
+        <div class="od2">
+            <img src="map.jpeg" alt="">
+            <h2>Live Order Tracking</h2>
+            <p>Know where your order is at all times,
+                from the restaurant to your doorstep
+            </p>
+        </div>
+        <div class="od3">
+            <img src="bike_delivery.png" alt="">
+            <h2>Lightning-Fast Delivery</h2>
+            <p>Experience Swiggy's superfast Delivery
+                for food delivered fresh & on time
+            </p>
+        </div>
+     </div>
+    
+</body>
+</html>

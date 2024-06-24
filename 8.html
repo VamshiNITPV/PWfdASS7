@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            padding: 10px;
+            padding-left: 20px;
+            background-color: black;
+            color: white;
+            border-radius: 20px;
+        }
+        .inner{
+            display: grid;
+            grid-template-columns: repeat(4,250px);
+            grid-template-rows: repeat(2,400px);
+            grid-column-gap: 100px;
+            grid-row-gap: 50px;
+            margin: 100px;
+            margin-left: 80px;
+            margin-top: 50px;
+        }
+        .item{
+            border-radius: 20px;
+            text-align: center;
+            align-content: center;
+        }
+        .inner .item1{
+            background-color: #8D3DAF;
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .inner .item2{
+            grid-column: 2/3;
+            grid-row: 1/2;
+            background-color: #E07C24;
+        }
+       .inner .item3{
+            grid-column: 3/4;
+            grid-row: 1/2;
+            background-color: #758283;
+        }
+        .inner .item4{
+            grid-column: 4/5;
+            grid-row: 1/2;
+            background-color: #E03B88;
+        }
+        .inner .item5{
+            grid-column: 1/2;
+            grid-row: 2/3;
+            background-color: #FF6666;
+        }
+        .inner .item6{
+            grid-column: 2/3;
+            grid-row: 2/3;
+            background-color: #03C6C7;
+        }
+        .inner .item7{
+            grid-column: 3/4;
+            grid-row: 2/3;
+            background-color: #CAD5E2;
+        }
+        .inner .item8{
+            grid-row: 2/3;
+            grid-column: 4/5;
+            background-color: #35BDD0;
+        }
+    </style>
+    <div class="container">
+        <h1 style="font-size: 48px;">Feeling Fancy</h1>
+       <div class="inner">
+        <div class="item item1">#8D3DAF</div>
+        <div class="item item2">#E07C24</div>
+        <div class="item item3">#758283</div>
+        <div class="item item4">#E03B88</div>
+        <div class="item item5">#FF6666</div>
+        <div class="item item6">#03C6C7</div>
+        <div class="item item7">#CAD5E2</div>
+        <div class="item item8">#35BDD0</div>
+       </div>
+    </div>
+</body>
+</html>
